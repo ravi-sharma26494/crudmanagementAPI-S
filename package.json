@@ -1,0 +1,20 @@
+{
+  "name": "10xacademy_management",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ravi Sharma",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "mongoose": "^6.8.4",
+    "mongoose-sequence": "^5.3.1",
+    "nodemon": "^2.0.20"
+  }
+}
